@@ -1,8 +1,11 @@
+import TransitionEffect from "@/components/TransitionEffect";
+import { socials } from "@/constants";
 import banner from "@/public/assets/banner.svg";
 import Image from "next/image";
 const HomePage = () => {
   return (
     <div className="w-full lg:h-[80vh]  p-5">
+      <TransitionEffect />
       <div className="container mx-auto w-full h-full">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-16 w-full h-full">
           <div className="flex flex-col items-start gap-2 lg:gap-5 lg:w-[800px]">
@@ -22,6 +25,18 @@ const HomePage = () => {
               networking with industry professionals fuels my constant
               improvement.
             </p>
+
+            <div className="flex items-center gap-5">
+              {socials.map((list, index) => (
+                <div
+                  key={index}
+                  className="p-[16px] border border-primary-black rounded-lg hover:bg-primary-black cursor-pointer hover:text-primary-white duration-200 text-2xl">
+                  <a href={list.link} target="_blank">
+                    {list.icon}
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div>
