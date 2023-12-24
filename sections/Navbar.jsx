@@ -45,6 +45,43 @@ const Navbar = () => {
             {nav ? <IoMdClose size={20} /> : <TiThMenu size={20} />}
           </div>
         </div>
+
+        <div
+          className={
+            nav
+              ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-primary-black text-primary-white p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 h-screen p-10 ease-in duration-700"
+          }>
+          <Link href="/#" onClick={handleChange}>
+            <h1>
+              Sairam <span className="text-primary-white">Kaushik</span>
+            </h1>
+          </Link>
+
+          <div className="flex flex-col items-center justify-center w-full h-full gap-10">
+            {menuList.map((link, index) => (
+              <ul
+                key={index}
+                className="text-xl text-background"
+                onClick={handleChange}>
+                <Link
+                  href={link.path}
+                  className="text-primary hover:text-secondary text-center duration-200">
+                  <li>{link.label}</li>
+                </Link>
+              </ul>
+            ))}
+
+            <a
+              href="https://drive.google.com/file/d/18sFu_sQ_bXOfsHwJkhmw4UjCqhwAKpi_/view?usp=drive_link"
+              target="_blank">
+              <div className="flex items-center gap-3 px-[18px] py-[14px] text-[20px] border border-primary-white bg-primary-white rounded-xl text-primary-black hover:text-primary-black hover:bg-primary-white duration-150 cursor-pointer">
+                <button className="">Resume</button>
+                <FaDownload size={30} />
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

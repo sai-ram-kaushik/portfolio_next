@@ -4,7 +4,7 @@ import aiccit from "@/public/assets/aiccit.png";
 import Image from "next/image";
 const Projects = () => {
   return (
-    <div id="projects" className="w-full p-5">
+    <div id="projects" className="w-full p-5 mt-10">
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
           <h3>
