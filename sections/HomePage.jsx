@@ -28,11 +28,11 @@ const HomePage = () => {
 
             <div className="flex items-center gap-5">
               {socials.map((list, index) => (
-                <div
-                  key={index}
-                  className="p-[16px] border border-primary-black rounded-lg hover:bg-primary-black cursor-pointer hover:text-primary-white duration-200 text-2xl">
+                <div key={index}>
                   <a href={list.link} target="_blank">
-                    {list.icon}
+                    <div className="p-[16px] border border-primary-black rounded-lg hover:bg-primary-black cursor-pointer hover:text-primary-white duration-200 text-2xl">
+                      {list.icon}
+                    </div>
                   </a>
                 </div>
               ))}
