@@ -28,3 +28,17 @@ html {
     @apply text-zinc-800;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 1rem;
+  background-clip: content-box;
+}

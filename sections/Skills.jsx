@@ -14,7 +14,7 @@ const Skills = () => {
           {skills.map((list, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-center min-w-[10rem] min-h-[10rem] border border-primary-black text-primary-black rounded-lg hover:bg-primary-black hover:text-primary-white cursor-pointer gap-3 duration-200 ease-in-out">
+              className="flex flex-col items-center justify-center min-w-[12rem] min-h-[12rem] border border-primary-black text-primary-black rounded-lg hover:bg-primary-black hover:text-primary-white cursor-pointer gap-3 duration-300 ease-in-out">
               <div className="text-6xl">{list.icon}</div>
               <div className="text-lg font-bold">{list.label}</div>
             </div>

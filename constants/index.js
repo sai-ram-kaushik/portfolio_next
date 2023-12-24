@@ -15,8 +15,8 @@ import {
 } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 export const menuList = [
-  { label: "About Me", path: "#about-me" },
   { label: "Skills", path: "#skills" },
+  { label: "Experience", path: "#experience" },
   { label: "Project", path: "#project" },
   { label: "Contact Me", path: "#contact-me" },
 ];
@@ -56,4 +56,28 @@ export const skills = [
   { label: "GitHub", icon: <FaGithub /> },
   { label: "Linux", icon: <FaLinux /> },
   { label: "Figma", icon: <FaFigma /> },
+];
+
+export const experience = [
+  {
+    label: "Web Developer Intern",
+    date: "November, 2023 - Present, Remote",
+    company: "Goolluck Investments",
+    desc: "Tech stacks NextJS, JavaScript, GraphCMS, Tailwind CSS and Vercel, Build from the scratch and maintaining the codebase for the website",
+    logo: "/assets/goolluck.png",
+  },
+  {
+    label: "Frontend Developer Intern",
+    date: "February, 2023 - September, 2023, Remote",
+    company: "Gymmi",
+    desc: "Tech stacks NextJS, JavaScript, GraphCMS, Tailwind CSS and Vercel, Build from the scratch and maintaining the codebase for the website",
+    logo: "/assets/gymmi.webp",
+  },
+  {
+    label: "Frontend Developer Intern",
+    date: "January, 2023 - February, 2023, Remote",
+    company: "Infodal",
+    desc: "Tech stacks NextJS, JavaScript, GraphCMS, Tailwind CSS and Vercel, Build from the scratch and maintaining the codebase for the website",
+    logo: "/assets/infodal.png",
+  },
 ];
