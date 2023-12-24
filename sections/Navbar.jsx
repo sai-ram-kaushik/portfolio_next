@@ -30,10 +30,14 @@ const Navbar = () => {
             ))}
           </div>
 
-          <div className="hidden lg:flex items-center gap-3 px-[18px] py-[14px] text-[20px] border border-primary-black bg-primary-black rounded-xl text-primary-white hover:text-primary-black hover:bg-primary-white duration-150 cursor-pointer">
-            <button className="">Resume</button>
-            <FaDownload size={30} />
-          </div>
+          <a
+            href="https://drive.google.com/file/d/18sFu_sQ_bXOfsHwJkhmw4UjCqhwAKpi_/view?usp=drive_link"
+            target="_blank">
+            <div className="hidden lg:flex items-center gap-3 px-[18px] py-[14px] text-[20px] border border-primary-black bg-primary-black rounded-xl text-primary-white hover:text-primary-black hover:bg-primary-white duration-150 cursor-pointer">
+              <button className="">Resume</button>
+              <FaDownload size={30} />
+            </div>
+          </a>
 
           <div
             className="flex lg:hidden p-3 bg-primary-black text-primary-white rounded-full"

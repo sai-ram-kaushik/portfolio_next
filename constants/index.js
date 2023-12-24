@@ -17,7 +17,7 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 export const menuList = [
   { label: "Skills", path: "#skills" },
   { label: "Experience", path: "#experience" },
-  { label: "Project", path: "#project" },
+  { label: "Project", path: "#projects" },
   { label: "Contact Me", path: "#contact-me" },
 ];
 

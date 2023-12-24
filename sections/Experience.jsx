@@ -31,7 +31,7 @@ const Experience = () => {
                   </p>
                 </div>
 
-                <p>{list.date}</p>
+                <p className="font-bold">{list.date}</p>
                 <p className="text-justify">{list.desc}</p>
               </div>
             </div>

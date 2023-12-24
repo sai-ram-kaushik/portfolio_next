@@ -13,7 +13,7 @@ const HomePage = () => {
               Hello I&apos;am <span className="font-bold">Sairam.</span>
             </h2>
             <h2>
-              Frontend <span className="font-bold">Developer</span>
+              Front-end <span className="font-bold">Developer</span>
             </h2>
             <p className="text-justify">
               I&apos;m Sairam Kaushik, a final-year Computer Science student
