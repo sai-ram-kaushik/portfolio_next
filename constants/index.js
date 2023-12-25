@@ -39,7 +39,7 @@ export const socials = [
   },
   {
     label: "Instagram",
-    link: "https://github.com/sai-ram-kaushik",
+    link: "https://www.instagram.com/sairamkaushik/",
     icon: <FaInstagram />,
   },
 ];
