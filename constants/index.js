@@ -3,6 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoMongodb } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
 import {
   FaInstagram,
   FaHtml5,
@@ -49,6 +50,7 @@ export const skills = [
   { label: "CSS", icon: <FaCss3 /> },
   { label: "JavaScript", icon: <IoLogoJavascript /> },
   { label: "ReactJs", icon: <FaReact /> },
+  { label: "NextJs", icon: <SiNextdotjs /> },
   { label: "NodeJs", icon: <FaNodeJs /> },
   { label: "MongoDB", icon: <BiLogoMongodb /> },
   { label: "Tailwind CSS", icon: <BiLogoTailwindCss /> },
