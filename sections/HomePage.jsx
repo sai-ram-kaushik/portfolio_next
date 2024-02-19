@@ -10,7 +10,7 @@ const HomePage = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-16 w-full h-full">
           <div className="flex flex-col items-start gap-2 lg:gap-5 lg:w-[800px]">
             <h2>
-              Hello I&apos;am <span className="font-bold">Sairam.</span>
+              Hello I&apos;m <span className="font-bold">Sairam.</span>
             </h2>
             <h2>
               Front-end <span className="font-bold">Developer</span>
